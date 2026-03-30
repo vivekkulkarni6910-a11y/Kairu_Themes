@@ -1,6 +1,25 @@
 <h1> Kairu_Themes </h1>
 <p> This provides the Stylus codes for various Kairu.app Themes... </p>
 
+<table>
+  <tr>
+    <th>
+      Name of the Theme
+    </th>
+    <th>
+      Set-Up Stylus Theme
+    </th>
+  </tr>
+  <tr>
+    <td>
+      Modern Curv
+    </td>
+    <td>
+      <a href="https://github.com/vivekkulkarni6910-a11y/Kairu_Themes/raw/main/Themes/Modern Curv.user.css"> Enable Theme </a>
+    </td>
+  </tr>
+</table>
+
 <hr>
 
 <!--Modern Curv-->
@@ -8,8 +27,24 @@
   1. Modern Curv
 </h2>
 
+<p> 
+  <img src="https://github.com/vivekkulkarni6910-a11y/Kairu_Themes/blob/main/Assets/Images/README/image.png" alt="Showcase of Modern Curv Theme"> </p>
+
+<p> Modifications:
+  <ol>
+    <li>
+      Made the main Kairu logo at the top-left corner larger and made its background transparent...
+    </li>
+    <li>
+      Changed the font for a more Modernistic Look &amp Feel...
+    </li>
+    <li>
+      Made the UI Elements more rounded...
+    </li>
+  </ol>
+</p>
+
 <p>
-  <img src="https://github.com/vivekkulkarni6910-a11y/Kairu_Themes/blob/main/Assets/Images/README/image.png" alt="Showcase of Modern Curv Theme">
   
   Steps to Set-Up Theme:
   <ol>
@@ -25,19 +60,6 @@
     </li>
     <li>
       <a href="https://github.com/vivekkulkarni6910-a11y/Kairu_Themes/raw/main/Themes/Modern Curv.user.css"> Click Here</a> to enable the "Modern Curv" Theme...
-    </li>
-  </ol>
-  
-  Modifications:
-  <ol>
-    <li>
-      Made the main Kairu logo at the top-left corner larger and made its background transparent...
-    </li>
-    <li>
-      Changed the font for a more Modernistic Look &amp Feel...
-    </li>
-    <li>
-      Made the UI Elements more rounded...
     </li>
   </ol>
 </p>
