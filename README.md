@@ -1,10 +1,12 @@
-# Kairu_Themes
-This provides the Stylus code for various Kairu.app Themes:
+<h1> Kairu_Themes </h1>
+<p> This provides the Stylus code for various Kairu.app Themes: </p>
+
+<hr>
 
 <!--Modern Curv-->
-<h1>
+<h2>
   1. Modern Curv
-</h1>
+</h2>
 
 <p>
   Modifications:
