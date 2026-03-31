@@ -2,27 +2,27 @@
 @name           Modern Curv
 @namespace      https://github.com/vivekkulkarni6910-a11y/Kairu_Themes
 @version        1.0.0
-@description    A Kairu.app Theme - Modern Curv
+@description    Kairu Theme - Modern Curv
 @author         Vivek Kulkarni
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://kairu.app/") {
 
-/* 1. Import a Modern tech font */
+/* Import a Modern tech font */
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
-/* 2. Tailwind/Next.js CSS variables */
+/* Tailwind/Next.js CSS variables */
 :root, html, body {
     --font-sans: 'Space Grotesk', sans-serif !important;
     --font-mono: 'Space Grotesk', monospace !important;
 }
 
-/* 3. Override every single element */
+/* Override every single element */
 *, *::before, *::after {
     font-family: 'Space Grotesk', sans-serif !important;
 }
 
-/* 4. Make the big focus timer sharp */
+/* Make the big focus timer sharp */
 [data-testid="timer-display"] {
     font-family: 'Space Grotesk', sans-serif !important;
     font-weight: 700 !important;
@@ -30,27 +30,27 @@
     font-variant-numeric: tabular-nums !important;
 }
 
-/* 1. Make Sidebar Navigation items rounded */
+/* Make Sidebar Navigation items rounded */
 nav a, nav div.flex.items-center.rounded-md {
     border-radius: 9999px !important;
     margin-bottom: 4px !important;
     padding-right: 12px !important;
 }
 
-/* 3. Round the "Settings", "Contact" and "Logout" buttons at the bottom */
+/* Round the "Settings", "Contact" and "Logout" buttons at the bottom */
 aside button[data-slot="button"], 
 aside a[data-slot="button"],
 aside button[data-slot="dialog-trigger"] {
     border-radius: 9999px !important;
 }
 
-/* 4. Round the Social Media / Dark Mode toggle area */
+/* Round the Social Media / Dark Mode toggle area */
 aside .flex.items-center.justify-center.rounded-full,
 aside button[role="switch"] {
     border-radius: 9999px !important;
 }
 
-/* 5. Round the main Timer buttons (Finish, Pause, etc...) */
+/* Round the main Timer buttons (Finish, Pause, etc...) */
 [data-testid="finish-button"], 
 [data-testid="pause-button"],
 [data-testid="configure-button"],
@@ -59,12 +59,12 @@ aside button[role="switch"] {
     border-radius: 9999px !important;
 }
 
-/* 6. Round the Tag selector above the timer */
+/* Round the Tag selector above the timer */
 .w-72.group button {
     border-radius: 9999px !important;
 }
 
-/* 7. Round the User Avatar and its border */
+/* Round the User Avatar and its border */
 img[alt="User avatar"] {
     border-radius: 9999px !important;
 }
@@ -83,7 +83,7 @@ a[href="/focus"] div.w-8.h-8 {
     background-color: transparent !important;
 }
 
-/* Scale up the actual Clock icon */
+/* Scale up the main Clock icon */
 a[href="/focus"] div.w-8.h-8 svg {
     width: 24px !important;  /* Increased from 16px */
     height: 24px !important; /* Increased from 16px */
